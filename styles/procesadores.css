@@ -1,26 +1,16 @@
 /*Principal*/
+html {
+    min-height: 100%;
+}
+body {
+    background-image: url(../img/login-new.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
 *{
-    margin: 0;
-    padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
-}
-
-.principal{
-    max-width: 2000px;
-    margin: auto;
-    background-image: url(../img/login-new.jpeg);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    overflow: hidden;
-    padding: 20px;
-
-}
-.contenido {
-    max-width: 1170px;
-    margin: 0 auto;
-    color:rgb(0, 0, 0);
 }
 
 /*Imagenes*/
@@ -61,41 +51,4 @@ button {
     to {
         background-color: yellow;
     }
-}
-/* Barra de Menu*/
-.side-bar{
-    width: 50px;
-    height: 100vh;
-    background: linear-gradient(#00545d, #000729);
-    position:absolute;
-    right: 0;
-    top: 0;
-}
-
-.menu{
-    display: block;
-    width: 25px;
-    margin: 40px auto 0;
-    cursor: pointer;
-}
-
-.social-links img, .enlaces-utiles img{
-width: 25px;
-margin: 5px auto;
-cursor: pointer;
-}
-
-.social-links{
-    width: 50px;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.enlaces-utiles{
-    width: 50px;
-    text-align: center;
-    position: absolute;
-    bottom: 30px;
 }
