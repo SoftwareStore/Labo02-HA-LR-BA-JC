@@ -12,10 +12,9 @@ pre
     color:white; 
     font-size: 20px;
 } 
-.principal{
+body{
     
-    background-image: url(../img/monitores/2-1024x640.jpg);
-    background-position: center;
+    background-image: url(../img/login-new.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
