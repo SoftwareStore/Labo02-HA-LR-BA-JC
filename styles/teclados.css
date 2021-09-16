@@ -1,3 +1,19 @@
+html {
+    min-height: 100%;
+}
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/login-new.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+
+
 li {
     margin: 30px 0;
 }
