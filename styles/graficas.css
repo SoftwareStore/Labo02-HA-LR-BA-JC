@@ -1,3 +1,16 @@
+html {
+    min-height: 100%;
+}
+body {
+    background-image: url(../img/login-new.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
 button {
     width: 134px;
     height: 42px;
@@ -7,6 +20,7 @@ button {
     animation-duration: 2s;
     animation-iteration-count: 20;
 }
+
 
 img{
     margin-left: auto;
