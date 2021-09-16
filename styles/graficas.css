@@ -1,0 +1,23 @@
+li {
+    margin: 30px 0;
+}
+
+button {
+    width: 134px;
+    height: 42px;
+    border-radius: 15%;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: 20;
+
+}
+
+@keyframes example {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: yellow;
+    }
+}
