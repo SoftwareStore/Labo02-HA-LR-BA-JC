@@ -29,11 +29,12 @@ button {
     animation-name: example;
     animation-duration: 2s;
     animation-iteration-count: 20;
-
 }
 
 img {
     width: 25%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @keyframes example {
