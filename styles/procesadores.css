@@ -1,3 +1,4 @@
+/*Principal*/
 *{
     margin: 0;
     padding: 0;
@@ -6,32 +7,62 @@
 }
 
 .principal{
+    max-width: 2000px;
+    margin: auto;
     background-image: url(../img/login-new.jpeg);
     background-size: cover;
     background-position: center;
     position: relative;
     overflow: hidden;
+    padding: 20px;
+
 }
 .contenido {
     max-width: 1170px;
     margin: 0 auto;
     color:rgb(0, 0, 0);
 }
-.columna {
-    float: left;
-    width: 50%;
-    padding-right: 5px;
+
+/*Imagenes*/
+img{
+    margin-left: auto;
+    margin-right: auto;
 }
-  
-.fila::after {
-    content: "";
-    clear: both;
-    display: table;
+
+p {
+    color: white;
 }
-img {
-    /* Para que sea responsiva */
-    width: 25%;
+
+h1,h4 {
+    color: white;
 }
+
+li {
+    margin: 30px 0;
+    color: white;
+}
+
+/*Otros cambios*/
+button {
+    width: 134px;
+    height: 42px;
+    border-radius: 15%;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: 20;
+
+}
+
+@keyframes example {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: yellow;
+    }
+}
+/* Barra de Menu*/
 .side-bar{
     width: 50px;
     height: 100vh;
