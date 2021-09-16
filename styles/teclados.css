@@ -5,12 +5,14 @@ html {
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
+    color: #fff;
 }
 
 body {
     background-image: url(../img/login-new.jpeg);
     background-repeat: no-repeat;
-    background-attachment: fixed
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 
@@ -23,6 +25,7 @@ button {
     height: 42px;
     border-radius: 15%;
     background-color: red;
+    color: #000;
     animation-name: example;
     animation-duration: 2s;
     animation-iteration-count: 20;
